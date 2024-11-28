@@ -1,4 +1,4 @@
-import image from '../assets/spiaggia.jpg'
+
 import style from './Card.module.css'
 import Button from './Button'
 

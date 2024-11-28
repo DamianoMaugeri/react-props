@@ -12,6 +12,7 @@ export default function MainSection() {
                 <div className="container">
                     <div className="row">
                         {posts.map((post) => (
+                            post.published &&
                             <div key={post.id} className="col_4">
                                 <Card title={post.title} image={post.image} description={post.content} tags={post.tags} published={post.published} />
                             </div>
