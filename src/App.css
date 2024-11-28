@@ -20,7 +20,7 @@ img {
   display: block;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
-  max-height: 250px;
+  height: 250px;
 }
 
 
@@ -56,4 +56,34 @@ main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 30px;
+}
+
+.html,
+.css,
+.js,
+.php {
+  margin-right: 10px;
+}
+
+.html {
+  color: blue;
+}
+
+.css {
+  color: red;
+}
+
+.js {
+  color: green;
+}
+
+.php {
+  color: purple;
 }
